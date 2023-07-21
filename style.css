@@ -1,4 +1,4 @@
-/*google fonts*/
+ /*google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
@@ -11,19 +11,19 @@
 
     --hue-color: 164;
 
-    --first-color: hsl(var(--hue-color), 58%, 47%);
+    --first-color: #915c83;
     --first-color-second: hsl(var(--hue-color), 69%, 61%);
-    --first-color-alt: hsl(var(--hue-color), 57%, 53%);
-    --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
+    --first-color-alt: #915c83;
+    --first-color-lighter: #d1b6c9;
     --title-color: hsl(var(--hue-color), 8%, 15%);
     --text-color: hsl(var(--hue-color), 8%, 45%);
     --text-color-light: hsl(var(--hue-color), 8%, 65%);
-    --input-color: hsl(var(--hue-color), 70%, 96%);
+    --input-color: #e6d5e2;
     --body-color: hsl(var(--hue-color),60%,99%);
     --container-color:  #fff;
 
     --body-font: 'poppins', sans-serif;
-    --section-background-color: rgba(0,0,0,0.01);
+    --section-background-color: #f9f5f8;
     --big-font-size: 2rem;
     --h1-font-size: 1.5rem;
     --h2-font-size: 1.25rem;
@@ -97,6 +97,7 @@ a{
 
 img{
     max-width: 100%;
+	object-fit: cover;
     height: auto;
 }
 
@@ -326,7 +327,7 @@ img{
 }
 
 .home_title{
-    font-size: var(--big-font-size);
+    font-size: var(--h1-font-size);
 }
 
 .home_subtitle{
@@ -432,6 +433,7 @@ img{
     border-radius: .5rem;
     justify-self: center;
     align-self: center;
+
 }
 
 .about_description{
@@ -570,21 +572,34 @@ img{
     background: var(--first-color);
 }
 /*one*/
-.skills_html{
+.skills_tableau{
     width: 90%;
 }
 
-.skills_css{
+.skills_sql{
     width: 85%;
 }
 
-.skills_js{
-    width: 80%;
+.skills_python{
+    width: 70%;
 }
 
-.skills_bootstrap{
-    width: 80%
+.skills_msexcel{
+    width: 85%
 }
+
+.skills_hadoop{
+    width: 70%;
+}
+
+.skills_powerbi{
+    width: 50%;
+}
+
+.skills_rlanguage{
+    width: 50%;
+}
+
 
 /*two*/
 .skills_node{
@@ -600,16 +615,24 @@ img{
 }
 
 /*three*/
-.skills_figma{
-    width: 80%;
+.skills_ExcellentCommunicationSkills{
+    width: 95%;
 }
 
-.skills_canva{
-    width: 70%;
+.skills_OrganizedandCommitted{
+    width: 90%;
 }
 
-.skills_photoshop{
-    width: 50%;
+.skills_ResponsibleandSelfMotivated{
+    width: 85%;
+}
+
+.skills_AdaptableandQuickLearner{
+    width: 90%;
+}
+
+.skills_TimeandDeliveryManagement{
+    width: 95%;
 }
 
 .skills_close .skills_list{
@@ -862,10 +885,15 @@ img{
     padding: 0 1.5rem;
 }
 
-.portfolio_image{
+.portfolio_image,
+.portfolio_video{
     width: 265px;
     border-radius: .5rem;
     justify-self: center;
+}
+
+.portfolio_data{
+	text-align: center;
 }
 
 .portfolio_title{
@@ -958,7 +986,7 @@ img{
 }
 
 .footer_bg{
-    background: #76a397;
+    background: #815275;
     padding-top: 2rem 0 3rem;
 }
 
@@ -1363,7 +1391,7 @@ img{
         background: var(--first-color);
         color: #FFF;
         border-radius: 2rem;
-        margin-left: 4rem;
+        
     }
 
     .button_icon{
@@ -1468,7 +1496,7 @@ img{
     .button{
         background: var(--first-color);
         border-radius: 2rem;
-        margin-left: 4rem;
+        
         }
     
     .button_icon{

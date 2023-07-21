@@ -169,7 +169,7 @@ window.addEventListener('scroll', scrollUp);
 
 //text animation
 var typed = new Typed('.text_animation',{
-    strings: ['Frontend Developer','UI/UX Designer', 'Logo Designer'],
+    strings: ['an Analyst','a Tableau Developer','an Analytics Enthusiast'],
     typeSpeed: 40,
     backSpeed: 35,
     loop: true
@@ -178,7 +178,6 @@ var typed = new Typed('.text_animation',{
 
 //contact validation
 function validate(){
-    debugger;
     var name = document.getElementById('contact_name').value;
     var email = document.getElementById('contact_email').value;
     var message = document.getElementById('contact_msg').value;
